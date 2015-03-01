@@ -16,9 +16,6 @@
 	<!-- [Optional] Font Awesome (font icons) - http://goo.gl/XfBd3 -->
 	<!-- <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'> -->
 
-	<!-- x-framework -->
-	<link rel='stylesheet' href='assets/css/x-framework-0.1.0.css'>
-
 	<!-- Custom style for this website -->
 	<link rel='stylesheet' href='assets/css/custom-style.css'>
 
@@ -66,7 +63,7 @@
 
 	<!-- .container -->
 	<div class="container">
-		<div class="row x-mt-100">
+		<div class="row" style="margin-top: 100px;">
 			<div class="col-md-6"><div class="pattern thumbnail" style="background-image: url('assets/img/patterns/0001.gif');"></div></div>
 			<div class="col-md-6"><div class="pattern thumbnail" style="background-image: url('assets/img/patterns/0002.jpg');"></div></div>
 			<div class="col-md-6"><div class="pattern thumbnail" style="background-image: url('assets/img/patterns/0003.gif');"></div></div>
