@@ -1,0 +1,41 @@
+header, section, footer, aside, nav, main, article, figure { 
+	display: block; 
+}
+html {
+    height: 100%;
+}
+body {
+	background-color: #eee;
+	/*color: #4B6CB7;*/
+	/*color: #eb284f;*/
+	/*color: #ea1a44;*/
+	color: #555;
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    height: 100%;
+}
+main {
+	min-height: 480px;
+}
+footer {
+	background-color: #182848;
+	/*color: rgba(255,255,255,0.6);*/
+	color: #A2A8B5;
+	min-height: 100px;
+	padding: 30px 20px;
+}
+.pattern {
+	background-color: #fff;
+	height: 150px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.05);
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+}
+@media (min-width: 768px) {
+	.pattern {
+		height: 200px;
+	}
+}
+.ts_light { text-shadow: 0 1px 1px rgba(0,0,0,.15); }
+.bs_light { box-shadow: 0 1px 5px rgba(0,0,0,.1); }
